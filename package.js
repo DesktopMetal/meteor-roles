@@ -14,9 +14,9 @@ Package.onUse(function (api) {
 
   api.use([
     'ecmascript',
-    'accounts-base',
+    'accounts-base@2.2.4 || 3.0.0',
     'tracker',
-    'mongo',
+    'mongo@1.16.0 || 2.0.0',
     'check',
     'ddp'
   ], both)
